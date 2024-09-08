@@ -7,23 +7,43 @@
     <title>PMA APS</title>
 </head>
 <body>
+    <video autoplay muted loop id="background-video">
+        <source src="Vídeos/vid.mp4" type="video/mp4">
+    </video>
     <header>
-        <h1>Atenção Primária à Saúde</h1>
+        <h1>Atenção Primária à Saúde - APS</h1>
     </header>
     <main>
-        <section>
+        <section class="introducao">
+            <h2>Bem-vindo à sua fonte de informações sobre a APS!</h2>
+            <h2>🔎 Encontre Tudo Sobre APS Rapidamente! 🩺</h2> 
+            <p>Este site é sua ferramenta essencial para navegar pelo universo da Atenção Primária à Saúde (APS) com facilidade e rapidez. ⚡</p>
+            <p><strong>Aqui você pode:</strong></p>
+            <ul>
+                <li>Buscar informações sobre qualquer tema relacionado à APS: Unidades de saúde, programas, prevenção, tratamentos e muito mais. Basta digitar sua dúvida na barra de pesquisa e encontrar respostas instantaneamente. 🔍</li>
+                <li>Aprender sobre os programas de saúde da família: Conheça os programas oferecidos na sua comunidade e como eles podem te ajudar a cuidar da sua saúde e da sua família. 👨‍👩‍👧‍👦</li>
+                <li>Explorar materiais educativos e recursos úteis: Acesse cartilhas, vídeos e outros conteúdos que te ajudam a entender melhor a APS e como cuidar da sua saúde de forma preventiva. 📚</li>
+            </ul>
+            <p>Com este site, você tem acesso rápido e fácil a tudo o que precisa saber sobre a APS, para cuidar da sua saúde e da sua família com mais conhecimento e autonomia. 💪</p>
+            <p><strong>Lembre-se:</strong> Em caso de dúvidas ou necessidade de atendimento, procure a unidade de saúde mais próxima ou ligue para o número 136. 📞 </p>
+        </section>
+        <section class="busca">
             <form onsubmit="event.preventDefault(); buscar();"> 
-                <input type="text" placeholder="Digite sua busca" id="campo-pesquisa">
+                <input type="text" placeholder="Busque por qualquer informação sobre a APS" id="campo-pesquisa">
                 <button type="submit">Buscar</button>
             </form>
         </section>
         <section class="resultados-pesquisa" id="resultados-pesquisa">
             <h2>Resultados da Pesquisa</h2> 
         </section>
+
+        <section class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RBCHCL4GukY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
     </main>
     <footer>
         <p>2024 - PMA APS. Todos os direitos reservados</p>
-        <p>Entre em contato: julianogusmao10@gmail.com</p>
+        <p>Imersão Dev com Gemini</p>
     </footer>
     <script src="dados.js"></script>
     <script src="app.js"></script>

@@ -83,5 +83,29 @@ let dados = [
         descricao: "Conselho Nacional de Secretarias Municipais de Saúde, com informações e recursos sobre gestão municipal da saúde, incluindo APS.",
         link: "https://www.conasems.org.br/",
         tags : "CONASEMS, Gestão Municipal, Saúde, Atenção Primária"
+      },
+      {
+        titulo: "Polítia Nacional de Atenção Básica - 2017",
+        descricao: "PORTARIA Nº 2.436, DE 21 DE SETEMBRO DE 2017 -  Aprova a Política Nacional de Atenção Básica, estabelecendo a revisão de diretrizes para a organização da Atenção Básica, no âmbito do Sistema Único de Saúde (SUS).",
+        link: "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html",
+        tags : "Leis, Politica Nacional, PNAB, Lei"
+      },
+      {
+        titulo: "Painéis de Informações do Fundo Nacional de Saúde",
+        descricao: "Informações técnicas sobre cada repasse realizado aos Fundos Municipais e Estaduais de Saúde, desde o ano 2000 até a presente data, como bloco de financiamento, datas de repasse, ações e componentes de saúde financiados.",
+        link: "https://infoms.saude.gov.br/extensions/CGIN_InvestsusPaineis/CGIN_InvestsusPaineis.html",
+        tags : "FNS, Fundo Nacional de Saúde, Fundo, Financiamento"
+      },
+      {
+        titulo: "Cadastro Nacional de Estabelecimentos de Saúde - CNES",
+        descricao: "O Cadastro Nacional de Estabelecimentos de Saúde (CNES) é uma base de dados que registra informações sobre todos os estabelecimentos de saúde do Brasil, sejam públicos, privados ou conveniados.",
+        link: "https://cnes.datasus.gov.br/",
+        tags : "CNES, unidades, posto, postos de saúde, unidade de sáude"
+      },
+      {
+        titulo: "SIGTAP - Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos e OPM do SUS",
+        descricao: "O SIGTAP é um ambiente virtual que permite o acesso à mesas de procedimentos, medicamentos, órteses / próteses e materiais especiais (OPM) do SUS. É isso que possibilita a auditoria do SUS. Descubra quanto o SUS paga por cada procedimento.",
+        link: "http://sigtap.datasus.gov.br/tabela-unificada/app/sec/inicio.jsp",
+        tags : "paga, preço, tabela SUS, "
       }
 ];
